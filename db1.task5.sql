@@ -9,7 +9,7 @@ WHERE ParentId = 0;
 # 5.3
 SELECT Title, Price, Tax, Discount, Description
 FROM PRODUCT
-WHERE Id IN (Select ProductId FROM FEATURED);
+WHERE isFeatured = 1;
 
 # 5.4
 DELIMITER $$
@@ -38,7 +38,7 @@ BEGIN
 	SELECT Title, Description, Price, AVG(Stars)
 	FROM PRODUCT LEFT JOIN REVIEW ON Id = ProductId
 	WHERE DepartmentId = depId
-    GROUP BY Title;
+  GROUP BY Title;
 END$$
 DELIMITER ;
 
