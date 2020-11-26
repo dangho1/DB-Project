@@ -32,38 +32,38 @@ VALUES(8, "Dessert", "Sweet",2);
 
 #Product queries
 ###########
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(0, 2000, 50.7, 25, "Ballerina", "Delicious", 100, 8);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(0, 2000, 50.7, 25, "Ballerina", "Delicious", 100, 8, 1);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(1, 200, 59, 35, "Breadboard Mini", "Small", 200, 4);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(1, 200, 59, 35, "Breadboard Mini", "Small", 200, 4, 0);
 
-INSERT INTO PRODUCT(Id, Price, Title, Description, Quantity, DepartmentId)
-VALUES(2, 1, "Croque Monsiuer", "Cheesy", 10, 6);
+INSERT INTO PRODUCT(Id, Price, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(2, 1, "Croque Monsiuer", "Cheesy", 10, 6, 1);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(3, 40, 80, 5, "Jasmine Tea", "Flowery", 50, 7);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(3, 40, 80, 5, "Jasmine Tea", "Flowery", 50, 7, 0);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(4, 1, 50.7, 25, "Alienware NASA 1000X", "Overhyped", 2000, 5);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(4, 1, 50.7, 25, "Alienware NASA 1000X", "Overhyped", 2000, 5, 0);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(5, 2002, 100, 100, "Lithium battery", "Thunder", 100, 3);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(5, 2002, 100, 100, "Lithium battery", "Thunder", 100, 3, 0);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(6, 2003, 5, 35, "Conductor", "Conducting", 2010, 4);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(6, 2003, 5, 35, "Conductor", "Conducting", 2010, 4, 0);
 
-INSERT INTO PRODUCT(Id, Price, Title, Description, Quantity, DepartmentId)
-VALUES(7, 11, "PBJ", "Sweet and savoury", 109, 6);
+INSERT INTO PRODUCT(Id, Price, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(7, 11, "PBJ", "Sweet and savoury", 109, 6, 0);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(8, 41, 80, 5, "Rooibos", "Hearthy", 500, 7);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(8, 41, 80, 5, "Rooibos", "Hearthy", 500, 7, 1);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(9, 10, 50.7, 25, "Alienware NASA 2000X", "More Overhyped", 2000, 5);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(9, 10, 50.7, 25, "Alienware NASA 2000X", "More Overhyped", 2000, 5, 0);
 
-INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId)
-VALUES(10, 20023, 100, 100, "AAA batteries", "AAA", 105, 3);
+INSERT INTO PRODUCT(Id, Price, Tax, Discount, Title, Description, Quantity, DepartmentId, isFeatured)
+VALUES(10, 20023, 100, 100, "AAA batteries", "AAA", 105, 3, 0);
 ########
 
 #Featured queries
